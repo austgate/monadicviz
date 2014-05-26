@@ -1,0 +1,139 @@
+{
+        "nodes": [
+          {
+                "name":"Matins",
+                "id" : 0,
+                 "group" :1,
+                   "count": 4,
+                   "links": [8,9,10],
+                    "description": [ { "Hours" : [
+                        {"Midnight" : "Also known as Vigils"}
+                       ]
+                     }
+                    ]
+                
+            },
+            {
+                "name":"Lauds",
+                "id" : 1,
+                "group" :1,
+                    "count": 4,
+                    "links" : [8,9,10],
+                    "description": [ { "Hours": [
+                        { "3am": "Dawn Prayer" }
+                       ]
+                     }
+                    ]
+                
+            },
+            {
+                "name":"Prime",
+                "id": 2,
+                "group" :1,
+                    "count": 4,
+                    "links" : [8,9,10],
+                    "description": [  { "Hours": [
+                        {"6am": "Early Morning Prayer"}
+                         ]
+                       }
+                    ]
+        
+            },
+            {
+                "name": "Terce",
+                "id": 3,
+                "group" :1,
+                  "count": 4,
+                  "links" : [8,9,10],
+                    "description": [ { "Dickens": [
+                        {"9am": "Mid Morning Prayer"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "Sext",
+                "id": 4,
+                "group" :1,
+                  "count": 4,
+                  "links" : [8,9,10],
+                    "description": [ { "Hours": [
+                        {"12pm": "Midday Prayer"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "None",
+                "id": 5,
+                "group" :1,
+                  "count": 4,
+                  "links" : [8,9,10],
+                    "description": [ { "Hours": [
+                        {"3pm": "Mid Afternoon Prayer"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "Vespers",
+                "id": 6,
+                "group" :1,
+                  "count": 4,
+                  "links" : [8,9,10],
+                    "description": [ { "Hours": [
+                        {"6pm": "Evening Prayer"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "Compline",
+                "id": 7,
+                "group" :1,
+                  "count": 4,
+                  "links" : [8,9,10],
+                    "description": [ { "Hours": [
+                        {"9pm": "Night Prayer"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "Prayers",
+                "id": 10,
+                "group" :2,
+                  "count": 8,
+                  "links" : [0,1,2,3,4,5,6,7],
+                    "description": [ { "Hours": [
+                        {"Prayers": "A range of defined prayers"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "Psalms",
+                "id": 8,
+                "group" :2,
+                  "count": 8,
+                  "links" : [0,1,2,3,4,5,6,7],
+                    "description": [ { "Hours": [
+                        {"Psalms": "A range of psalms defined by the year"}
+                    ]
+                }
+              ]
+            },
+            {
+                "name": "Readings",
+                "id": 9,
+                "group" :2,
+                  "count": 8,
+                  "links" : [0,1,2,3,4,5,6,7],
+                    "description": [ { "Hours": [
+                        {"Readings":"Readings depending on the time"}
+                    ]
+                }
+              ]
+            }
+        ]
+}
