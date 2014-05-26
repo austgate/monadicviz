@@ -113,7 +113,7 @@ function hoverInText(correspondent) {
      for (var k in correspondent.description[m]) {
        for (var n in correspondent.description[m][k]) {
          Object.getOwnPropertyNames(correspondent.description[m][k][n]).forEach(function(val,idx,array) {
-           text += "<li><a href='"+correspondent.description[m][k][n][val]+"'>" + val + "</a></li>";
+           text += "<li>"+correspondent.description[m][k][n][val]+" : " + val + "</li>";
          });
        }
      }
