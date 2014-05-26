@@ -9,6 +9,29 @@ creates the visualisations in the form of monads.
 It is derived from the ideas at the ArchaID project
 (http://www.archaid.org/?portfolio=monadic-visualization).
 
+###Data
+
+        "nodes": [
+        {
+            "name": "Node name",
+            "id": 0,
+            "group": 1,
+            "count": 4,
+            "links": [
+                list of ids to which this node is linked
+            ],
+            "description": [
+                {
+                    "Hours": [
+                        {
+                            "Key": "Value"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
 ###Requirements
 
 Uses both JQuery and Raphael Javascript libraries.
@@ -19,7 +42,7 @@ Issues will be posted in the issue queue on Github
 
 ###Copyright
 
-Iain Emsley <iain_emsley@ausgate.co.uk>
+Iain Emsley <iain_emsley@austgate.co.uk>
 
 ###License
 
